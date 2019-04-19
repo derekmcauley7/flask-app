@@ -35,5 +35,3 @@ def get_json_variables():
     return cpus, host_name, ip, mem_gib
 
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
